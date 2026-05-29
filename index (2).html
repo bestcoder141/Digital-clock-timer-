@@ -1,0 +1,53 @@
+<!-- index.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Digital Clock </title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body id="body">
+
+  <div class="clock-box">
+
+    <h1>Digital Clock</h1>
+
+    <div id="timer">00 : 00 : 00</div>
+
+    <div id="day">Monday</div>
+
+    <div id="date">1 January 2026</div>
+
+   
+
+    <div class="buttons">
+
+      <button onclick="previousSong()" class="small-btn">
+        ⏮️
+      </button>
+
+      <button onclick="playMusic()" class="play-btn">
+        ▶️
+      </button>
+
+      <button onclick="nextSong()" class="small-btn">
+        ⏭️
+      </button>
+
+    </div>
+
+    <button onclick="changeColor()" class="color-btn">
+      Change Color 
+    </button>
+
+  </div>
+
+  <audio id="song"></audio>
+
+  <script src="app.js"></script>
+
+</body>
+</html>
