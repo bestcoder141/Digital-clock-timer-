@@ -5,8 +5,7 @@ setInterval(function(){
   var timer = document.getElementById("timer");
   var day = document.getElementById("day");
   var fullDate = document.getElementById("date");
-
-  var date = new Date();
+     var date = new Date();
 
   var h = date.getHours();
   var m = date.getMinutes();
