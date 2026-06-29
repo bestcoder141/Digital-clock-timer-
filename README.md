@@ -3,6 +3,7 @@
 A stylish and interactive Digital Music Clock built using HTML, CSS, and JavaScript. This project combines a real-time digital clock with a built-in music player, creating a modern and engaging user experience. Users can view the current time while listening to their favorite tracks through an easy-to-use music player interface.
 
 ✨ Features
+
 Real-time digital clock
 Music player with play, pause, next, and previous controls
 Dynamic song title display
